@@ -6,4 +6,4 @@ echo -ne "Server time is: "; date
 if test -f "$HOME/.bashrc"; then
     source $HOME/.bashrc
 fi
-vi mode
+set -0 vi
